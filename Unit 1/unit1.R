@@ -1,4 +1,5 @@
 ### USE UTF-8 Encoding To See Chinese
+Sys.setlocale(category="LC_ALL")
 ###Video4 
 WHO <- read.csv("WHO.csv")
 str(WHO)
